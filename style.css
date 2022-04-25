@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@700&display=swap');
+
+body {
+    background-image:url(wp4676576.webp);
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+.calendar-body{
+    display:grid;
+    background: rgb(240, 240, 240);
+    width:50%;
+    height:100%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  color:white;
+  backdrop-filter: blur(5px);
+}
+
+.calendar-weekdays{
+    display:grid;
+    padding:1%;
+    grid-template-columns: repeat(7,1fr);
+    column-gap:5%;
+    font-size:1.5rem;
+    text-align:center;
+    color:white;
+}
+
+.calendar-monthdays{
+    display:grid;
+    padding:1%;
+    grid-template-columns:repeat(7,1fr);
+    column-gap:4%;
+    row-gap:2%;
+    font-size:1rem;
+    text-align:center;
+    color:white;
+}
+
+.monthname{
+    background-color: transparent;
+    padding:0;
+    width:50%;
+    margin-top:2%;
+    margin-left:25%;
+    margin-right:25%;
+    color:white;
+}
+
+h1{
+    font-size:2rem;
+    padding:5%;
+    margin-bottom:-2%;
+    text-align:center;
+}
+
+.prevMonth, .nextMonth{
+    background-color:transparent;
+    border-color:transparent;
+    color:white
+}
+
+.prev-date, .next-date{
+    opacity:0.5;
+}
+
+.calendar-monthdays{
+    padding: 50px;
+}
